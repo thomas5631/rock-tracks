@@ -1,0 +1,19 @@
+{
+  "extends": "stylelint-config-recommended-scss",
+  "plugins": [
+    "stylelint-scss"
+  ],
+  "rules": {
+    "color-named": "never",
+    "comment-whitespace-inside": "always",
+    "indentation": 2,
+    "max-empty-lines": 1,
+    "no-missing-end-of-source-newline": true,
+    "number-leading-zero": "always",
+    "property-case": "lower",
+    "selector-list-comma-newline-after": "always",
+    "selector-max-id": 0,
+    "string-quotes": "single",
+    "unit-case": "lower",
+  },
+}
