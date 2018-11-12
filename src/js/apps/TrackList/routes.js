@@ -1,7 +1,7 @@
 import React from 'react';
 import { Route } from 'react-router-dom';
-import Home from '.';
+import TrackList from '.';
 
-const route = <Route path="/" exact component={Home} />;
+const route = <Route path="/" exact component={TrackList} />;
 
 export default route;

@@ -1,0 +1,33 @@
+.tracklist {
+  h1 {
+    text-align: center;
+  }
+
+  &__track {
+    @include grid-row(12);
+    background-color: #f0f8ff;
+    margin-top: 0.5rem;
+
+    &-artwork {
+      @include grid-column(1);
+    }
+
+    &-trackname {
+      @include grid-column(4);
+      font-weight: 700;
+    }
+
+    &-artistname {
+      @include grid-column(3);
+    }
+
+    &-trackprice {
+      @include grid-column(2);
+    }
+
+    &-details {
+      @include button();
+      @include grid-column(2);
+    }
+  }
+}

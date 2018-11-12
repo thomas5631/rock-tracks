@@ -1,0 +1,30 @@
+.trackdetails {
+  h1 {
+    text-align: center;
+  }
+
+  &__track {
+    @include grid-row();
+    background-color: #f0f8ff;
+    margin-top: 0.5rem;
+
+    &-artwork {
+      @include grid-column(1 of 4);
+    }
+
+    &-info {
+      @include grid-column(1 of 4);
+    }
+
+    &-links {
+      @include grid-column(2 of 4);
+
+      &-goback,
+      &-viewitunes {
+        @include button();
+        margin: 0.5rem;
+      }
+    }
+  }
+
+}

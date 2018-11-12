@@ -14,6 +14,7 @@ module.exports = {
   devServer: {
     contentBase: path.resolve(__dirname, 'dist'),
     compress: true,
+    historyApiFallback: true,
   },
   module: {
     rules: [

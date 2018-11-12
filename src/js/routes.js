@@ -1,11 +1,13 @@
 import React from 'react';
 import { BrowserRouter, Switch } from 'react-router-dom';
-import Home from './apps/Home/routes';
+import TrackDetails from './apps/TrackDetails/routes';
+import TrackList from './apps/TrackList/routes';
 
 const Routes = () => (
   <BrowserRouter>
     <Switch>
-      {Home}
+      {TrackDetails}
+      {TrackList}
     </Switch>
   </BrowserRouter>
 );
